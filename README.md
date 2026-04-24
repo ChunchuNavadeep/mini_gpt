@@ -5,16 +5,16 @@ A simple AI chatbot built using Python, Streamlit, Gemini API, and SQLite for co
 ---
 
 ## Features
-- Chat-based UI using Streamlit
-- Gemini API integration for responses
-- SQLite-based chat history storage
-- Context-aware replies using past messages
-- Environment-based API key handling
+- Chat-based UI using Streamlit  
+- Gemini API integration for responses  
+- SQLite-based chat history storage  
+- Context-aware replies using past messages  
+- Environment-based API key handling  
 
 ---
 
 ## Tech Stack
-Python, Streamlit, SQLite, Google Gemini API
+Python, Streamlit, SQLite, Google Gemini API  
 
 ---
 
@@ -27,6 +27,7 @@ memory.py
 requirements.txt
 .env.example
 .gitignore
+assets/
 ```
 
 ---
@@ -53,7 +54,16 @@ streamlit run app.py
 
 ---
 
+## Screenshots
+
+### Chat Interface
+![Chat UI](assets/Screenshot1.png)
+
+### Memory Working
+![Memory](assets/Screenshot2.png)
+
+---
+
 ## Note
-- Requires valid Gemini API key
-- Free tier may have usage limits
-```
+- Requires valid Gemini API key  
+- Free tier may have usage limits  
